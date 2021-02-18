@@ -1,4 +1,4 @@
-# Emojis-4-Arch
+# Emojis 4 Arch
 *Simple way to add emojis for Arch Linux.*
 
 Simple tutorial to install emojis on Arch Linux. Note that this install of emojis will only effect certain applications. This will not add emoji support to every single application on Arch Linux.
