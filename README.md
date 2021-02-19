@@ -34,3 +34,10 @@ Example:
 
 ## Congrats
 After that you are finished! Now refresh the applications that you need emoji support on and it shall appear as a emoji rather than a weird rectangular box! :smile: :muscle:
+
+## Troubleshooting
+There is a issue on Arch based distros where GitHub as weird spacing and missing characters in the font when installing an emoji package. The easiest way to fix this is by getting the *ttf-ms-fonts* package from the AUR [here](https://aur.archlinux.org/packages/ttf-ms-fonts/). The installation goes as installing any other AUR package.  
+`git clone https://aur.archlinux.org/ttf-ms-fonts` (This will clone the files from the repo.)  
+`cd ttf-ms-fonts` (This will change the directory to the new folder.)  
+`makepkg -si` (This will make the package.)  
+Afterwards, you can refresh the browser and GitHub shouldn't have the font issue!
